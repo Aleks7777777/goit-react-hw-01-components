@@ -1,0 +1,39 @@
+.statistics {
+	padding: 10px;
+	background-color: rgb(61, 85, 81);
+	border-radius: 15px;
+	box-shadow: 10px 5px 5px rgb(45, 47, 45);
+}
+
+.title {
+	text-transform: capitalize;
+	text-align: center;
+	margin-bottom: 25px;
+	font-weight: bold;
+	font-size: 50px;
+	color: burlywood;
+}
+
+.stat_list {
+	display: flex;
+	font-size: 15px;
+	list-style: none;
+	justify-content: center;
+}
+
+.item {
+	padding: 10px 30px;
+	color: rgb(227, 123, 117);
+}
+
+.item:not(:first-child) {
+	border-left: 2px solid black;
+}
+
+.label {
+	display: block;
+}
+
+.stat_list {
+	border: 2px solid black;
+}
